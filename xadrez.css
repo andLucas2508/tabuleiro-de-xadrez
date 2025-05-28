@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    /* Fundo da página */
+    background-color: #d4cccc; 
+    color: #000000; /* Texto principal em cinza escuro */
+}
+
+h1 {
+    /* Título */
+    color: #000000; 
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Deixar o título em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+}
+
+canvas {
+    
+    border: 3px solid #000000; 
+    background-color: #FFFFFF; 
+
+    /* Centraliza */
+    display:flex; 
+    margin: 0;
+}
